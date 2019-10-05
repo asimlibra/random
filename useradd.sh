@@ -1,5 +1,5 @@
 #!/bin/bash 
-if [ "$#" -qa "1" ];then 
+if [ "$#" -eq "1" ];then 
 	if [ -f "$1" ];then 
 		for a in $(cat $1)
 		do 
